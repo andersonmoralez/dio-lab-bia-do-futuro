@@ -1,11 +1,9 @@
-data,descricao,categoria,valor,tipo
-2025-10-01,Salário,receita,5000.00,entrada
-2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
-2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
-2025-10-12,Uber,transporte,45.00,saida
-2025-10-15,Conta de Luz,moradia,180.00,saida
-2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+id_transacao,data_hora,estabelecimento,categoria,valor,metodo_pagamento,status_esperado,metadata_historico
+TRX-001,2026-04-14 09:00:00,NETFLIX_ENTRETENIMENTO,Assinaturas,74.90,Cartao_Credito,ALERTA_AUMENTO,Anterior: 55.90
+TRX-002,2026-04-14 12:30:00,IFOOD_DELIVERY,Alimentacao,85.00,PIX,ALERTA_ORCAMENTO,Acumulado: 785.50 | Limite: 800.00
+TRX-003,2026-04-14 15:00:00,CONCESSIONARIA_ENERGIA,Contas_Fixas,450.00,Debito_Automatico,ALERTA_ANOMALIA,Media_6m: 180.00
+TRX-004,2026-04-15 08:15:00,APPLE_SERVICES_CUPERTINO,Lazer_Apps,29.90,Cartao_Credito,ALERTA_NOVO_GASTO,Trial_Expirado: True
+TRX-005,2026-04-15 10:00:00,POSTO_COMBUSTIVEL_MATTE,Transporte,65.00,Debito,OK,Dentro da media semanal
+TRX-006,2026-04-15 13:00:00,PADARIA_SAO_JOSE,Alimentacao,12.50,PIX,OK,Gasto rotineiro baixo
+TRX-007,2026-04-15 18:00:00,DROGARIA_SP_MORATO,Saude,115.40,Cartao_Credito,OK,Gasto farmacia recorrente
+TRX-008,2026-04-15 19:20:00,VIVO_FIBRA_INTERNET,Contas_Fixas,120.00,Debito_Automatico,ALERTA_DUPLICIDADE,Cobranca identica ha 3 dias
