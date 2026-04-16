@@ -1,42 +1,39 @@
-[
-  {
-    "nome": "Tesouro Selic",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "100% da Selic",
-    "aporte_minimo": 30.00,
-    "indicado_para": "Reserva de emergência e iniciantes"
+{
+    "id_alerta": "FIN-2026-001",
+    "tipo": "SUBSCRIPTION_RENEWAL_HIKE",
+    "servico": "Streaming Premium",
+    "valor_anterior": 55.90,
+    "valor_atual": 74.90,
+    "variacao_percentual": 34.0,
+    "gatilho": "Aumento de preço detectado sem aviso prévio ou acima da inflação do período.",
+    "sugestao_agente": "Verificar se houve upgrade de plano ou considerar downgrade para o plano padrão."
   },
   {
-    "nome": "CDB Liquidez Diária",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "102% do CDI",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Quem busca segurança com rendimento diário"
+    "id_alerta": "FIN-2026-002",
+    "tipo": "BUDGET_THRESHOLD_REACHED",
+    "categoria": "Alimentação/Delivery",
+    "limite_definido": 800.00,
+    "gasto_atual": 785.50,
+    "projecao_final_mes": 1100.00,
+    "gatilho": "Consumo atingiu 98% do teto mensal faltando 12 dias para o fechamento do ciclo.",
+    "sugestao_agente": "Reduzir gastos com alimentação externa nas próximas duas semanas."
   },
   {
-    "nome": "LCI/LCA",
-    "categoria": "renda_fixa",
-    "risco": "baixo",
-    "rentabilidade": "95% do CDI",
-    "aporte_minimo": 1000.00,
-    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
+    "id_alerta": "FIN-2026-003",
+    "tipo": "UNEXPECTED_SERVICE_CHARGE",
+    "servico": "Conta de Luz (Concessionária)",
+    "media_historica": 180.00,
+    "valor_atual": 450.00,
+    "gatilho": "Anomalia de consumo: valor 150% acima da média móvel de 6 meses.",
+    "sugestao_agente": "Possível erro de leitura ou fuga de corrente. Recomenda-se conferir o medidor."
   },
   {
-    "nome": "Fundo Multimercado",
-    "categoria": "fundo",
-    "risco": "medio",
-    "rentabilidade": "CDI + 2%",
-    "aporte_minimo": 500.00,
-    "indicado_para": "Perfil moderado que busca diversificação"
-  },
-  {
-    "nome": "Fundo de Ações",
-    "categoria": "fundo",
-    "risco": "alto",
-    "rentabilidade": "Variável",
-    "aporte_minimo": 100.00,
-    "indicado_para": "Perfil arrojado com foco no longo prazo"
+    "id_alerta": "FIN-2026-004",
+    "tipo": "GHOST_SUBSCRIPTION",
+    "servico": "App Fitness XYZ",
+    "status": "Novo Gasto Detectado",
+    "valor": 29.90,
+    "gatilho": "Identificado primeiro débito de um serviço não mapeado anteriormente no histórico.",
+    "sugestao_agente": "Confirmar se a contratação foi consciente ou se o período de 'free trial' expirou."
   }
 ]
