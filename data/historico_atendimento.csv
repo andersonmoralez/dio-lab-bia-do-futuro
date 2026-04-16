@@ -1,6 +1,7 @@
-data,canal,tema,resumo,resolvido
-2025-09-15,chat,CDB,Cliente perguntou sobre rentabilidade e prazos,sim
-2025-09-22,telefone,Problema no app,Erro ao visualizar extrato foi corrigido,sim
-2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
-2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
-2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+id_log,timestamp_evento,tipo_interacao,mensagem_agente,referencia_trx,status_atendimento
+LOG-101,2026-04-14 09:05:00,Alerta_Ativo,"Olá! Notei que a sua assinatura da Netflix subiu de R$ 55,90 para R$ 74,90. Gostaria de verificar opções de planos mais baratos?",TRX-001,Aguardando_Feedback
+LOG-102,2026-04-14 12:35:00,Alerta_Orcamento,"Atenção! Com o gasto no iFood, atingiu R$ 870,50 em alimentação. Superou a sua meta de R$ 800,00. Sugiro evitar novos deliveries esta semana.",TRX-002,Notificado
+LOG-103,2026-04-14 15:10:00,Alerta_Anomalia,"Identifiquei uma conta de luz de R$ 450,00, valor 150% acima da sua média de R$ 180,00. Recomendo conferir o medidor para evitar cobrança indevida.",TRX-003,Urgente
+LOG-104,2026-04-15 08:20:00,Alerta_Assinatura,"Detetei um novo gasto de R$ 29,90 (Apple Services). Parece ser o fim de um período 'trial' de um App de Fitness. Pretende manter?",TRX-004,Pendente
+LOG-105,2026-04-15 19:30:00,Resumo_Rotina,"Hoje teve 3 gastos normais (Posto, Padaria e Farmácia em Morato). Tudo dentro do esperado!",TRX-005|TRX-006|TRX-007,Informativo
+LOG-106,2026-04-15 19:35:00,Acao_Proativa,"Identifiquei uma possível cobrança duplicada da Vivo Fibra (R$ 120,00). Quer que eu prepare um texto para solicitar o estorno?",TRX-008,Acao_Sugerida
