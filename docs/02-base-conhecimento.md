@@ -7,8 +7,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
 | `historico_atendimento.csv` | CSV | Contextualizar interações anteriores, dando continuidade no atendimento de forma mais efetiva. |
-| `perfil_investidor.json` | JSON | Personalizar as explicações sobre as dúvidas e as necessidades de aprendizado do cliente. |
-| `produtos_financeiros.json` | JSON | Conhecer os produtos disponíveis para que eles possam ser ensinados ao cliente. |
+| `alertas_gatilhos.json` | JSON | Alertar o cliente para gastos indevidos ou fora do orçamento. |
 | `transacoes.csv` | CSV | Analisar padrão de gastos do cliente, usar essas informações de forma didática e proativa. |
 
 > [!TIP]
