@@ -1,4 +1,5 @@
-{
+[
+  {
     "id_alerta": "FIN-2026-001",
     "tipo": "SUBSCRIPTION_RENEWAL_HIKE",
     "servico": "Streaming Premium",
