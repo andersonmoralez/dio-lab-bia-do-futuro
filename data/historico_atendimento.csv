@@ -1,7 +1,8 @@
-id_log,timestamp_evento,tipo_interacao,mensagem_agente,referencia_trx,status_atendimento
-LOG-101,2026-04-14 09:05:00,Alerta_Ativo,"Olá! Notei que a sua assinatura da Netflix subiu de R$ 55,90 para R$ 74,90. Gostaria de verificar opções de planos mais baratos?",TRX-001,Aguardando_Feedback
-LOG-102,2026-04-14 12:35:00,Alerta_Orcamento,"Atenção! Com o gasto no iFood, atingiu R$ 870,50 em alimentação. Superou a sua meta de R$ 800,00. Sugiro evitar novos deliveries esta semana.",TRX-002,Notificado
-LOG-103,2026-04-14 15:10:00,Alerta_Anomalia,"Identifiquei uma conta de luz de R$ 450,00, valor 150% acima da sua média de R$ 180,00. Recomendo conferir o medidor para evitar cobrança indevida.",TRX-003,Urgente
-LOG-104,2026-04-15 08:20:00,Alerta_Assinatura,"Detetei um novo gasto de R$ 29,90 (Apple Services). Parece ser o fim de um período 'trial' de um App de Fitness. Pretende manter?",TRX-004,Pendente
-LOG-105,2026-04-15 19:30:00,Resumo_Rotina,"Hoje teve 3 gastos normais (Posto, Padaria e Farmácia em Morato). Tudo dentro do esperado!",TRX-005|TRX-006|TRX-007,Informativo
-LOG-106,2026-04-15 19:35:00,Acao_Proativa,"Identifiquei uma possível cobrança duplicada da Vivo Fibra (R$ 120,00). Quer que eu prepare um texto para solicitar o estorno?",TRX-008,Acao_Sugerida
+id_conversa,timestamp,pergunta_cliente,resposta_agente,contexto_gatilho
+LOG-101,2026-04-14 09:10:00,"Por que minha Netflix veio mais cara?","O valor foi reajustado de R$ 55,90 para R$ 74,90. Isso geralmente ocorre por mudanças na tabela de preços do serviço ou alteração de plano para 4K.",AUMENTO_ASSINATURA
+LOG-102,2026-04-14 12:40:00,"Quanto ainda posso gastar com comida este mês?","No momento você já excedeu sua meta em R$ 70,50. Para equilibrar suas finanças, o ideal seria não realizar novos gastos nesta categoria até o próximo ciclo.",ESTOURO_ORCAMENTO
+LOG-103,2026-04-14 15:15:00,"Essa conta de luz está errada, o que eu faço?","Como o valor de R$ 450 está muito acima da sua média de R$ 180, você pode contestar a leitura pelo app da concessionária ou verificar se houve algum vazamento de energia/fuga de corrente.",ANOMALIA_CONSUMO
+LOG-104,2026-04-15 08:30:00,"Que cobrança da Apple é essa de 29 reais?","Trata-se do App Fitness Pro. O período gratuito de 7 dias encerrou ontem e a assinatura mensal foi ativada automaticamente.",NOVA_ASSINATURA
+LOG-105,2026-04-15 19:40:00,"Quais foram meus gastos hoje em Morato?","Hoje você utilizou R$ 115,40 na Drogaria SP aqui em Francisco Morato. Foi o seu único gasto presencial registrado na cidade hoje.",CONSULTA_ROTINA
+LOG-106,2026-04-15 19:45:00,"Pode me ajudar com o reembolso da internet duplicada?","Claro! Já preparei os dados da transação TRX-008. Posso gerar um texto padrão para você enviar ao suporte da Vivo Fibra solicitando o estorno do valor de R$ 120,00.",COBRANCA_DUPLICADA
+LOG-107,2026-04-15 20:00:00,"Quanto gastei no total hoje?","Somando o posto, a padaria e a farmácia, seu gasto total hoje foi de R$ 192,90. Tudo dentro da sua média diária esperada.",RESUMO_DIARIO
